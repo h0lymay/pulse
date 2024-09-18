@@ -22,6 +22,7 @@
   },
   "dependencies": {
     "auto-prefixer": "^0.4.2",
-    "commonjs-variables-for-esmodules": "^1.1.0"
+    "commonjs-variables-for-esmodules": "^1.1.0",
+    "slick-carousel": "^1.8.1"
   }
 }
