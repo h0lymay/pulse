@@ -6,6 +6,7 @@
     <title>Pulse</title>
     <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
     <link rel="stylesheet" href="css/font.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <link rel="stylesheet" type="text/css" href="./css/slick.css">
     <link rel="stylesheet" href="css/style.min.css">
 </head>
@@ -30,15 +31,15 @@
                 <h2 class="promo__subheader">с учётом Вашего уровня подготовки</h2>
                 <div class="promo__icons">
                     <div class="promo__icon">
-                        <img src="icons/main screen/019_timer_time_stopwatch_2-64.png" alt="timer">
+                        <img src="icons/main_screen/019_timer_time_stopwatch_2-64.png" alt="timer">
                         Время подбора: 10 минут
                     </div>
                     <div class="promo__icon">
-                        <img src="icons/main screen/app 08 hand cart 64.png" alt="hand-cart">
+                        <img src="icons/main_screen/app_08_hand_cart_64.png" alt="hand-cart">
                         Бесплатная доставка
                     </div>
                     <div class="promo__icon">
-                        <img src="icons/main screen/messages 64.png" alt="messages">
+                        <img src="icons/main_screen/messages_64.png" alt="messages">
                         Ответим на все вопросы
                     </div>
                 </div>
@@ -109,7 +110,7 @@
         </div>
     </section>
 
-    <section class="carousel">
+    <div class="carousel">
         <div class="container">
             <div class="carousel__inner">
                 <div>
@@ -123,7 +124,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </div>
 
     <section class="catalog">
         <div class="container">
@@ -381,32 +382,30 @@
 
     <section class="reviews">
         <div class="container">
-            <h2 class="title">отзывы клиентов</h2>
-            <div class="reviews__wrapper">
-                <div class="reviews__item">
+            <h2 class="title">отзывы клиентов</h2> 
+            <div class="reviews__item wow animate__fadeInUp" data-wow-duration="2s" data-wow-delay="1s">
                     <img src="img/reviews/photo_1.png" alt="" class="review_img">
                     <div class="reviews__descr">
                         <div class="reviews__name">Ирина Иванченко </div>
                         <div class="reviews__stats">2 полумарафона</div>
                         <div class="reviews__comment"><p>Не знала, что себе купить - обратилась к ребятам из RunSmart - подобрали пульсометр, который подошёл именно под мои цели и финансовые возможности.Через некоторое время решила обновить гаджет - не раздумывая обратилась туда же.</p> <p>Новые цели - новый гаджет!</p> <p>Спасибо, RunSmart!</p></div>
                     </div>
-                </div>
-                <div class="reviews__item">
+            </div>
+            <div class="reviews__item wow animate__fadeInUp" data-wow-duration="2s" data-wow-delay="1s">
                     <img src="img/reviews/photo_2.png" alt="" class="review_img">
                     <div class="reviews__descr">
                         <div class="reviews__name">Иван Сёмочкин</div>
                         <div class="reviews__stats">1 полумарафон</div>
                         <div class="reviews__comment"><p>Крутая штука-пульсометр. Обычно без них бегал. Оказывается только хуже себе делал. Купил пульсометр, ещё в подарок получил тренировку. Со мной вместе провели первую тренировку, научили пользоваться новым гаджетом. Также объяснили основы анатомии, составили план тренировок на месяц вперёд.</p> <p>С ними подготовился к своему первому полумарафону! Спасибо!!!</p></div>
                     </div>
-                </div>
-                <div class="reviews__item">
+            </div>
+            <div class="reviews__item wow animate__fadeInUp" data-wow-duration="2s" data-wow-delay="1s">
                     <img src="img/reviews/photo_3.png" alt="" class="review_img">
                     <div class="reviews__descr">
                         <div class="reviews__name">Юлия Дашкина</div>
                         <div class="reviews__stats">2 полумарафона</div>
                         <div class="reviews__comment"><p>Долго не могла начать бегать, т.к. до этого несколько раз начинала, но становилось тяжело и я бросала. От друзей услышала о RunSmart и о беге с контролем пульса и решила попробовать.</p> <p>Позвонила, ребята поинтересовались моими целями и подобрали очень интересный вариант со скидкой! Теперь бегаю и наслаждаюсь бегом! Пробежала уже 2 полумарафона и несколько более коротких забегов и не намерена останавливаться!</p> <p>Спасибо!!!</p></div>
                     </div>
-                </div>
             </div>
         </div>
     </section>
@@ -465,9 +464,10 @@
     
     <script src=" https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src=" https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.5.2/jquery-migrate.min.js"></script>
-    <script src="js/slick.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/slick.js"></script>
     <script src="js/jquery.validate.min.js"></script>
     <script src="js/jquery.maskedinput.min.js"></script>
+    <script src="js/wow.min.js"></script>
     <script src="js/script.js"></script>
 </body>
 </html>

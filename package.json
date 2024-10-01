@@ -21,6 +21,7 @@
     "sass": "^1.78.0"
   },
   "dependencies": {
+    "animate.css": "^4.1.1",
     "auto-prefixer": "^0.4.2",
     "commonjs-variables-for-esmodules": "^1.1.0",
     "slick-carousel": "^1.8.1"
