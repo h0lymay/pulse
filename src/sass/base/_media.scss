@@ -57,6 +57,84 @@
             font-size: 12px;
         }
     }
+    .consultation {
+        padding: 70px 0 62px 35px;
+        min-height: 600px;
+        .title {
+            font-size: 30px;
+        }
+        &__descr {
+            font-size: 18px;
+        }
+    }
+    .carousel {
+        &__inner {
+            width: 100%;
+        }
+        .slick-dots {
+            display: none;
+            li{
+                display: none;
+            }
+        }
+    }
+    .catalog {
+        padding-bottom: 50px;
+        .title {
+            font-size: 27px;
+        }
+        &__tabs {
+            margin-top: 50px;
+        }
+        &__content {
+            margin: 45px;
+        }
+    }
+    .reviews {
+        .title {
+            font-size: 28px;
+        }
+        &__item {
+            margin: 40px 0 40px 10px;
+            img {
+                margin-top: 15px;
+            }
+        }
+        &__descr {
+            margin-left: 40px;
+        }
+        &__name {
+            font-size: 15px;
+        }
+        &__stats {
+            font-size: 12px;
+        }
+        &__comment {
+            font-size: 14px;
+        }
+    }
+    .footer {
+        &__info {
+            padding: 15px 45px 15px 45px;
+            width: 365px;
+            height: 165px;
+            left: 51%;
+            transform: translateX(0);
+        }
+        &__addr {
+            font-size: 17px;
+            margin-bottom: 20px;
+        }
+        &__phone {
+            font-size: 17px;
+            margin-bottom: 20px;
+        }
+        &__social {
+            img {
+                width: 45px;
+            }
+        }
+    }
 }
 @media (max-width: 575px) {
     .promo {
